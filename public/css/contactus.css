@@ -1,0 +1,29 @@
+.error2{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    min-height: 100px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    font-family: 'lato', sans-serif;
+    transition: .5s;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    z-index: 9;
+    text-align: center;
+    text-transform: capitalize;
+    color: green;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    border: 1px solid #cacaca;
+}
+
+.error2.show{
+    opacity: 1;
+}

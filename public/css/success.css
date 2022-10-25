@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'cinzel', serif;
+    /* background: url(https://media3.giphy.com/media/t4DcI9P3dNVoA/giphy.gif?cid=790b7611a3ee9c444fed9e1a44d2f46bdf9834dce95139b4&rid=giphy.gif&ct=g); */
+    background: url(../img/bg-3.png);
+}
+
+.box{
+    border: 10px solid #d5be8b;
+    margin: 50px;
+   
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    
+   
+    
+}
+
+.recit{
+    padding-top: 30px;
+    margin-top: 10px;
+    font-size: 50px;
+    color: #d5be8b;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.box{
+    background-color: #ededed;
+    width: 600px;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    padding-bottom: 0;
+}
+
+.congratulation{
+    text-transform: uppercase;
+    font-size: 50px;
+    color: green;
+    text-transform: capitalize;
+    font-family: cursive;
+} 
+
+
+  
+#btn{
+    background-color: #d5be8b;
+    padding: 10px 20px;
+    font-size: 30px;
+    border: none;
+    right: 10px;
+    bottom: 10px; 
+    margin-top: 0;
+    border-radius: 10px;
+    color: white;
+    font-family: 'cinzel';
+}
+
+#btn:hover{
+    background-color: white;
+    color:#d5be8b;
+    font-family: 'cinzel';
+    cursor: pointer;
+}
